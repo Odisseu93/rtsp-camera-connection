@@ -21,3 +21,7 @@ execute o script no arquivo `main.py`
 ```bash
 python main.py
 ```
+
+## Licença
+
+[MIT](LICENSE)
