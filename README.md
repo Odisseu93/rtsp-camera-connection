@@ -4,7 +4,23 @@ Script em Python para conectar câmeras via [RTSP](https://developer.mozilla.org
 
 ## Instalação e exucução
 
-configure a URL da sua câmera no arquivo de varaiveis de ambiente [.env](.env)
+crie o seu ambiente virtual
+
+```bash
+python -m venv .venv
+```
+
+ative o ambiente:
+
+```bash
+# Windows
+.\.venv\Scripts\Activate
+
+# macOS/Linux
+source .venv/bin/activate
+```
+
+configure a URL da sua câmera no arquivo de variáveis de ambiente [.env](.env)
 
 ```bash
 RTSP_URL="rtsp://admin:admin@192.168.1.1:554/onvif1"
