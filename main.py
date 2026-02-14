@@ -5,10 +5,7 @@ import os
 
 load_dotenv()
 
-# --- COLE AQUI O ENDEREÇO RTSP DA SUA CÂMERA ---
 rtsp_url = os.getenv("RTSP_URL")
-
-# ------------------------------------------------
 instance = vlc.Instance("--network-caching=300")
 player = instance.media_player_new()
 media = instance.media_new(rtsp_url)
